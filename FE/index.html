@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Security</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div id="logo">
+        <img src="./assets/image/logo-nws.png" alt="logo">
+    </div>
+    <div id="user">
+        <img src="./assets/image/avt.png" alt="avt">
+        <span id="fullName"></span>
+    </div>
+</header>
+<div class="container">
+    <div class="sidebar">
+        <div id="menu"></div>
+    </div>
+    <section>
+        <h3>Quản lý sản phẩm</h3>
+        <div>
+            <input type="text" placeholder="Nhập tên sản phẩm"/>
+            <button>Thêm</button>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Thao tác</th>
+            </tr>
+            </thead>
+            <tbody id="data-table">
+            </tbody>
+        </table>
+    </section>
+</div>
+<footer>
+    Copyright © 2025
+</footer>
+</body>
+<script src="js/main.js"></script>
+<script src="js/product.js"></script>
+</html>
