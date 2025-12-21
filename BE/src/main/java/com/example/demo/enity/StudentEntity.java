@@ -7,12 +7,17 @@ import jakarta.persistence.*;
 public class StudentEntity extends BaseEntity {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
 
+    private Long id;
+    @Column(nullable = false)
     private String studentCode;
+
+    @Column(nullable = false)
     private String name;
+
     private String studentClass;
     private String faculty;
+
     private String status;
 
     @Override
