@@ -1,0 +1,30 @@
+# --- JAVA & SPRING BOOT ---
+target/
+build/
+out/
+.gradle/
+bin/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# --- IDE (IntelliJ, VS Code) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+
+# --- CONFIGURATION (Quan trọng) ---
+# Nếu không muốn lộ mật khẩu Supabase, bỏ comment dòng dưới:
+src/main/resources/application.properties
